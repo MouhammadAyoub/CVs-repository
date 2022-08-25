@@ -1,0 +1,128 @@
+﻿@page 
+@model CV_Project.Pages.SummaryModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+
+.gradient-custom {
+/* fallback for old browsers */
+background: #f6d365;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right bottom, rgba(181, 0, 255, 1), rgba(23, 190, 255, 1))
+}
+
+.gradient-custom2 {
+/* fallback for old browsers */
+background: #f6d365;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to left top, rgba(181, 0, 255, 1), rgba(23, 190, 255, 1))
+}
+
+</style>
+
+<div class="container" style="padding:0rem 1rem 1.875rem 0rem;">
+
+    <a asp-page="/BrowseCv" class="btn btn-primary btn-lg" style="margin:3rem 0rem 1rem 0.5rem;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
+</svg> Back </a>
+
+    @if(@Model.myCv != null)
+    {
+        
+        <center>
+            <section id="myDiv" style="background-color: #f4f5f7;height:27.5rem;width:54rem;border-radius:.5rem;margin-top:2rem;margin-bottom:6.5rem;">
+              <div>
+                <div>
+                  <div>
+                    <div class="card mb-3" style="border-radius: .5rem;">
+                      <div class="row g-0" style="margin-right:-11.8rem;">
+                        <div class="col-md-4 gradient-custom text-center text-white"
+                          style="height:27.3rem;border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;width:21rem;">
+                          <img src="@Model.myPicturePath"
+                            alt="Avatar" class="rounded-circle"style="height:18rem;width:18rem;margin:2.6rem 0rem 1.7rem 0rem;border:solid white 3px;" />
+                          <h2>@Model.myCv.FirstName @Model.myCv.LastName</h2>
+                        </div>
+                        <div class="col-md-6 gradient-custom2" style="border-top-right-radius: .5rem;border-bottom-right-radius: .5rem;">
+                          <div class="card-body p-4" style="margin-top:0.2rem;">
+                            <hr class="mt-0 mb-4">
+                            <div class="row pt-1">
+                              <div class="col-6 mb-3">
+                                <h4 class="text-warning">Skills</h4>
+                                <h5>@Model.myCv.Skills</h5>
+                              </div>
+                              <div class="col-6 mb-3">
+                                <h4 class="text-warning">Gender</h4>
+                                <h5>@Model.myCv.Gender</h5>
+                              </div>
+                            </div>
+                            <h4 class="text-warning"  style="margin-top:0.8rem;">Email</h4>
+                            <h5 style="margin-bottom:0.8rem;">@Model.myCv.Email</h5>
+                            <hr class="mt-0 mb-4">
+                            <div class="row pt-1">
+                              <div class="col-6 mb-3">
+                                <h4 class="text-warning">Nationality</h4>
+                                <h5>@Model.myCv.Nationality</h5>
+                              </div>
+                              <div class="col-6 mb-3">
+                                <h4 class="text-warning">Date Of Birth</h4>
+                                <h5>@Model.myCv.DateOfBirth</h5>
+                              </div>
+                            </div>
+                            <div class="d-flex justify-content-start" style="margin-top:1rem;margin-bottom:-2rem;">
+                                <div class="col-0 mb-3">
+                                    
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <h4 class="badge rounded-pill bg-info" style="padding:0.8rem 1.2rem 0.8rem 1.2rem;font-size:1.3rem;font-weight:100;">Grade: @Model.myGrade</h4>
+                                    <input type="hidden" value="@Model.myCv.FirstName @Model.myCv.LastName" id="myName" name="myName">
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-secondary btn-lg" style="margin-top:2rem;" onclick="PrintDiv(myDiv);">Generate PDF</button>
+            </section>
+        </center>
+    }
+
+</div>
+
+@section Scripts
+{
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+
+    <script>
+
+        function PrintDiv(div)
+        {
+            html2canvas((div), {
+                onrendered: function(canvas) {
+
+                    var imgData = canvas.toDataURL("image/jpeg", 1.0);
+                    var imageName = $("#myName").val().toString();
+
+                    var pdf = new jsPDF('l', 'mm', [297, 210]);
+                    pdf.addImage(imgData, 'JPEG', 34, 47);
+                    pdf.save("" + imageName + " Info.pdf");
+              }
+            });
+        }
+
+    </script>
+
+}
