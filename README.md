@@ -1,4 +1,7 @@
 <a name="readme-top"></a>
+
+<img src="icon.png" align="right" />
+
 # CVs-repository
 
 ![Issues](https://img.shields.io/github/issues/MouhammadAyoub/CVs-repository)
