@@ -12,17 +12,37 @@ Web application built with ASP.NET 5, used to store the resumes it receives. Use
 
 ### Installation
 
-download the project from github to your desktop:
+Download the project from github to your desktop:
 
   - **With Git** :
       If you’re familiar with git and have it installed on your computer, you can clone the repository to download the files.
       
-      **1.** Click the green button labeled &nbsp;&nbsp;`Code`</br>
+      **1.** Click the green button labeled &nbsp;`Code`</br>
       
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Button-Position.png" width="300px;" /></br>
       
-      **2.** Copy the URL of the repository
-  
+      **2.** Copy the URL of the repository</br>
+      
+      **3.** Next, on your local machine, open your bash shell and change your current working directory to the location where you would like to clone your repository
+      ```shell
+      cd "path-to-folder"
+      ```
+      
+      **4.** Once you have navigated to the directory where you want to put your repository, you can use
+      ```shell
+      git clone https://github.com/MouhammadAyoub/CVs-repository.git
+      ```
+      
+      **5.** When you run `git clone https://github.com/MouhammadAyoub/CVs-repository.git`, You should see output like
+      ```shell
+      Cloning into 'test-repo'...
+      remote: Counting objects: 5, done.
+      remote: Compressing objects: 100% (4/4), done.
+      remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+      Unpacking objects: 100% (5/5), done.
+      Checking connectivity... done.
+      ```
+      
   - **Without Git** : 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
