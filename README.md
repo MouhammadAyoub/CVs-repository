@@ -1,11 +1,11 @@
-﻿# CVs-repository.
+﻿# CVs-repository
 
 ![Issues](https://img.shields.io/github/issues/MouhammadAyoub/CVs-repository)
 ![Stars](https://img.shields.io/github/stars/MouhammadAyoub/CVs-repository)
 ![Contributors](https://img.shields.io/github/contributors/MouhammadAyoub/CVs-repository)
 ![Forks](https://img.shields.io/github/forks/MouhammadAyoub/CVs-repository)
 
-## This is a mini ASP.net project for beginners.
+## This is a mini ASP.net project for beginners
 
 ### Description
 
