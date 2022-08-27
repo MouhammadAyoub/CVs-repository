@@ -25,7 +25,7 @@ Download the project from github to your desktop:
       
       **3.** Next, on your local machine, open your bash shell and change your current working directory to the location where you would like to clone your repository
       ```shell
-      cd "path-to-folder"
+      cd "path-to-your-folder"
       ```
       
       **4.** Once you have navigated to the directory where you want to put your repository, you can use
@@ -43,7 +43,14 @@ Download the project from github to your desktop:
       Checking connectivity... done.
       ```
       
-  - **Without Git** : 
+  - **Without Git** :
+      When downloading materials to your laptop, it is easiest to download the entire repository.
+      
+      **1.** Click on the green `Code` button, then download the repository as a ZIP file</br>
+      
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Button-Position.png" width="300px;" /></br>
+      
+      **2.** Copy the URL of the repository</br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
