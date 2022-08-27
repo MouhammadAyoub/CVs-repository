@@ -42,6 +42,7 @@ Download the project from github to your desktop:
       Unpacking objects: 100% (5/5), done.
       Checking connectivity... done.
       ```
+      </br>
       
   - **Without Git** :
       When downloading materials to your laptop, it is easiest to download the entire repository.
@@ -52,8 +53,14 @@ Download the project from github to your desktop:
       
       **2.** Find the downloaded .zip file on your computer, likely in your Downloads folder</br>
       
-      **3.** Unzip it, this will create a folder named after the GitHub repository</br>
+      **3.** Unzip it, this will create a folder named after the GitHub repository</br></br>
 
+  - **Steps you must do to make the app work properly** :
+      
+      **1.** Change the server name of the ConnectionStrings attribute in the appsetting.json file</br>
+      
+      **2.** Open the package manager console and run the "update-database" command</br>
+      
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Usage
