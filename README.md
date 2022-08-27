@@ -16,6 +16,10 @@ download the project from github to your desktop:
 
   - **With Git** :
       If you’re familiar with git and have it installed on your computer, you can clone the repository to download the files.
+      
+      **1.** Click the green button labeled &nbsp;&nbsp;`Code`</br>
+      
+      **2.** Copy the URL of the repository
   
   - **Without Git** : 
 
