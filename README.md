@@ -63,11 +63,12 @@ Download the project from github to your desktop:
       
       **2.** Open the `package manager console`</br>
       
-      <img src="My-Connection-String.png" /></br>
+      <img src="Package-Manager-Console.png" width="500px" /></br>
       
-      **3.** Run the `update-database` command</br>
-      
-      <img src="My-Connection-String.png" /></br>
+      **3.** Run the `update-database` command
+      ```console
+      PM> update-database
+      ```
       
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
