@@ -8,7 +8,7 @@
 
 ### Description
 
-Web application built with **ASP.NET 5**, used to store the resumes it receives. User can submit a CV when he fills in all the required fields on the form. User can search, view, edit, delete any CV he chooses. Web application validates user input on both the client and server side.
+Web application built with ***ASP.NET 5***, used to store the resumes it receives. User can submit a CV when he fills in all the required fields on the form. User can search, view, edit, delete any CV he chooses. Web application validates user input on both the client and server side.
 
 ### Installation
 
