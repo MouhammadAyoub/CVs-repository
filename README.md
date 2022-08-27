@@ -19,6 +19,8 @@ download the project from github to your desktop:
       
       **1.** Click the green button labeled &nbsp;&nbsp;`Code`</br>
       
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Button-Position.png" width="300px;" /></br>
+      
       **2.** Copy the URL of the repository
   
   - **Without Git** : 
