@@ -5,7 +5,7 @@
 ![Contributors](https://img.shields.io/github/contributors/MouhammadAyoub/CVs-repository)
 ![Forks](https://img.shields.io/github/forks/MouhammadAyoub/CVs-repository)
 
-## This is a list of Python scripts for beginner projects.
+## This is a mini ASP.net project for beginners.
 
 ### Description
 
@@ -14,7 +14,7 @@ You can contribute by submitting your own scripts, also written in Python, which
 
 ### Contribution Guidelines
 
-The contribution guidelines are as per the guide [HERE](https://github.com/larymak/Python-project-Scripts/blob/main/CONTRIBUTING.md).
+The contribution guidelines are as per the guide [HERE](https://github.com/MouhammadAyoub/CVs-repository/blob/main/CONTRIBUTING.md).
 
 ### Instructions
 
