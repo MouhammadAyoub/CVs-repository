@@ -50,7 +50,9 @@ Download the project from github to your desktop:
       
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Download-Zip.png" width="350px;" /></br>
       
-      **2.** Copy the URL of the repository</br>
+      **2.** Find the downloaded .zip file on your computer, likely in your Downloads folder</br>
+      
+      **3.** Unzip it, this will create a folder named after the GitHub repository</br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
