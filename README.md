@@ -12,8 +12,6 @@
 Welcome aboard fellow developer, this is where you will find projects which you are free to contribute to.  
 You can contribute by submitting your own scripts, which you think would be amazing for other people to see.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Installation
 
 test test
