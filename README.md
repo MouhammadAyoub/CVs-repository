@@ -12,7 +12,12 @@ Web application built with ASP.NET 5, used to store the resumes it receives. Use
 
 ### Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+download the project from github to your desktop:
+
+  - **With Git** :
+      If you’re familiar with git and have it installed on your computer, you can clone the repository to download the files.
+  
+  - **Without Git** : 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
