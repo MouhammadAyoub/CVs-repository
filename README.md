@@ -59,7 +59,7 @@ Download the project from github to your desktop:
       
       **1.** Change the server name of the `ConnectionStrings` attribute in the `appsetting.json` file</br>
       
-      <img src="My-Connection-String.png" /></br>
+      <img src="assets/images/My-Connection-String.png" /></br>
       
       **2.** Open the `package manager console`</br>
       
