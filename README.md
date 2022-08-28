@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-<img src="icon.png" align="right" />
+<img src="assets/images/icon.png" align="right" />
 
 # CVs-repository</br>![Issues](https://img.shields.io/github/issues/MouhammadAyoub/CVs-repository)&nbsp;![Stars](https://img.shields.io/github/stars/MouhammadAyoub/CVs-repository)&nbsp;![Contributors](https://img.shields.io/github/contributors/MouhammadAyoub/CVs-repository)&nbsp;![Forks](https://img.shields.io/github/forks/MouhammadAyoub/CVs-repository)
 
@@ -19,7 +19,7 @@ Download the project from github to your desktop:
       
       **1.** Click the green button labeled &nbsp;`Code`</br>
       
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Button-Position.png" width="300px;" /></br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/images/Button-Position.png" width="300px;" /></br>
       
       **2.** Copy the URL of the repository</br>
       
@@ -49,7 +49,7 @@ Download the project from github to your desktop:
       
       **1.** Click on the green `Code` button, then download the repository as a ZIP file</br>
       
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Download-Zip.png" width="350px;" /></br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/images/Download-Zip.png" width="350px;" /></br>
       
       **2.** Find the downloaded .zip file on your computer, likely in your Downloads folder</br>
       
@@ -63,7 +63,7 @@ Download the project from github to your desktop:
       
       **2.** Open the `package manager console`</br>
       
-      <img src="Package-Manager-Console.png" width="500px" /></br>
+      <img src="assets/images/Package-Manager-Console.png" width="500px" /></br>
       
       **3.** Run the `update-database` command
       ```console
