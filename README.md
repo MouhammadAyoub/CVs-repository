@@ -6,11 +6,11 @@
 
 > Welcome aboard fellow developer, this is where you will find projects which you are free to contribute to. You can contribute by submitting your own scripts, which you think would be amazing for other people to see.
 
-### Description
+## Description
 
 Web application built with ***ASP.NET 5***, used to store the resumes it receives. User can submit a CV when he fills in all the required fields on the form. User can search, view, edit, delete any CV he chooses. Web application validates user input on both the client and server side.
 
-### Installation
+## Installation
 
 Download the project from github to your desktop:
 
@@ -72,41 +72,41 @@ Download the project from github to your desktop:
       
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Usage
+## Usage</br>
 
-- Welcome Page:
+- ***Welcome Page :*** &nbsp;This is the first page that appears when you enter the website 👇
 
 <img src="assets/images/Welcome-Page.png" /></br>
 
-- Send Page:
+- ***Send Page :*** &nbsp;
+
+<img src="assets/images/Send-Page.png" /></br>
+
+- ***Summary Page :*** &nbsp;
 
 
 
-- Summary Page:
+- ***Browse Page :*** &nbsp;
 
 
 
-- Browse Page:
+- ***View Page :*** &nbsp;
 
 
 
-- View Page:
-
-
-
-- Edit Page:
+- ***Edit Page :*** &nbsp;
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Contribution Guidelines
+## Contribution Guidelines
 
 The contribution guidelines are as per the guide [HERE](https://github.com/MouhammadAyoub/CVs-repository/blob/main/CONTRIBUTING.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Instructions
+## Instructions
 
 - Fork this repository
 - Clone your forked repository
@@ -119,14 +119,14 @@ The contribution guidelines are as per the guide [HERE](https://github.com/Mouha
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### License
+## License
 
 Distributed under the MIT License. See [`LICENSE`](https://github.com/MouhammadAyoub/CVs-repository/blob/main/LICENSE) for more information.  
 Copyright © 2022, Mohammad Ayoub
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Contact
+## Contact
 
 - Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;[mouhammad.ayoub@outlook.com](mailto:mouhammad.ayoub@outlook.com)
 
