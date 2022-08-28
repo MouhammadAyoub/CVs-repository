@@ -110,7 +110,7 @@ Download the project from github to your desktop:
 
 <img src="assets/images/Delete-Module.png" /></br>
 
-***Note :*** &nbsp;You can use the filter option with `Any String That Matches` any word from the table attributes (such as using the word female for example as shown in the image below)
+***Note :*** &nbsp;You can use the filter option with `Any String That Matches` any word from the table attributes (such as using the word *female* for example as shown in the image below)
 
 <img src="assets/images/Filter-Option.png" /></br>
 
