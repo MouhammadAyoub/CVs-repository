@@ -74,29 +74,45 @@ Download the project from github to your desktop:
 
 ## Usage</br>
 
-- ***Welcome Page :*** &nbsp;This is the first page that appears when you enter the website 👇
+- ***Welcome Page :*** &nbsp;This is the `first page` that appears when you enter the website 👇
 
 <img src="assets/images/Welcome-Page.png" /></br>
 
-- ***Send Page :*** &nbsp;
+- ***Send Page :*** &nbsp;This is the page where you `have to` fill in all the fields in order to save your CV
 
 <img src="assets/images/Send-Page.png" /></br>
 
-- ***Summary Page :*** &nbsp;
+***Note :*** &nbsp;If you forget to fill in any field and click the Submit button, a `validation` message will appear below it
 
+<img src="assets/images/Check-Error.png" /></br>
 
+***Note :*** &nbsp;When you click the Submit button, a `Verification Module` will appear and ask you to enter the sum of two random numbers (The issue of checking whether you are a robot or not has nothing to do with this)
 
-- ***Browse Page :*** &nbsp;
+<img src="assets/images/Verification-Module.png" /></br>
 
+- ***Summary Page :*** &nbsp;If you pass the step of sending your CV, you are redirected to the summary page which contains the information you submitted with the option to generate it as a pdf file
 
+<img src="assets/images/Summary-Page.png" /></br>
 
-- ***View Page :*** &nbsp;
+- ***Browse Page :*** &nbsp;The browsing page is the page that contains all the resumes stored in your web application
 
+<img src="assets/images/Browse-Page.png" /></br>
 
+***Note :*** &nbsp;View
 
-- ***Edit Page :*** &nbsp;
+<img src="assets/images/View-Page.png" /></br>
 
+***Note :*** &nbsp;Edit
 
+<img src="assets/images/Edit-Page.png" /></br>
+
+***Note :*** &nbsp;Delete
+
+<img src="assets/images/Delete-Module.png" /></br>
+
+***Note :*** &nbsp;Filter
+
+<img src="assets/images/Filter-Option.png" /></br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
