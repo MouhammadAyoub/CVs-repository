@@ -74,14 +74,29 @@ Download the project from github to your desktop:
 
 ### Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+- Welcome Page:
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+<img src="assets/images/Welcome-Page.png" /></br>
 
-```python
-x = "Hello World!"
-print(x)
-```
+- Send Page:
+
+
+
+- Summary Page:
+
+
+
+- Browse Page:
+
+
+
+- View Page:
+
+
+
+- Edit Page:
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
