@@ -74,15 +74,15 @@ Download the project from github to your desktop:
 
 ## Usage</br>
 
-- ***Welcome Page :*** &nbsp;This is the `first page` that appears when you enter the website 👇
+- ***Welcome Page :*** &nbsp;This is the `First Page` that appears when you enter the website 👇
 
 <img src="assets/images/Welcome-Page.png" /></br>
 
-- ***Send Page :*** &nbsp;This is the page where you `have to` fill in all the fields in order to save your CV
+- ***Send Page :*** &nbsp;This is the page where you `Have To` fill in all the fields in order to save your CV
 
 <img src="assets/images/Send-Page.png" /></br>
 
-***Note :*** &nbsp;If you forget to fill in any field and click the Submit button, a `validation` message will appear below it
+***Note :*** &nbsp;If you forget to fill in any field and click the Submit button, a `Validation Message` will appear below it
 
 <img src="assets/images/Check-Error.png" /></br>
 
@@ -90,27 +90,27 @@ Download the project from github to your desktop:
 
 <img src="assets/images/Verification-Module.png" /></br>
 
-- ***Summary Page :*** &nbsp;If you pass the step of sending your CV, you are redirected to the summary page which contains the information you submitted with the option to generate it as a pdf file
+- ***Summary Page :*** &nbsp;If you pass the step of sending your CV, you are redirected to the summary page which contains the `Information You Submitted` with the option to generate it as a pdf file
 
 <img src="assets/images/Summary-Page.png" /></br>
 
-- ***Browse Page :*** &nbsp;The browsing page is the page that contains all the resumes stored in your web application
+- ***Browse Page :*** &nbsp;The browsing page is the page that contains `All The Resumes Stored` in your web application
 
 <img src="assets/images/Browse-Page.png" /></br>
 
-***Note :*** &nbsp;View
+***Note :*** &nbsp;If you click on the green button, you will be redirected to the `Summary Page` containing the corresponding record information
 
 <img src="assets/images/View-Page.png" /></br>
 
-***Note :*** &nbsp;Edit
+***Note :*** &nbsp;If you click on the orange button, you will be redirected to the `Edit Page` containing the corresponding record information with the ability to change it.
 
 <img src="assets/images/Edit-Page.png" /></br>
 
-***Note :*** &nbsp;Delete
+***Note :*** &nbsp;If you click on the red button, a `Confirmation Module` will appear asking you to confirm your request to delete this record
 
 <img src="assets/images/Delete-Module.png" /></br>
 
-***Note :*** &nbsp;Filter
+***Note :*** &nbsp;You can use the filter option with `Any String That Matches` any word from the table attributes (such as using the word female for example as shown in the image below)
 
 <img src="assets/images/Filter-Option.png" /></br>
 
